@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="oraplm.Site1" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+              <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no"/>
+    <link  href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.minnew.css" rel="stylesheet" />
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <link href="css/bootstrap-multiselect.min.css" rel="stylesheet" />
+    <%--<link href="css/bootstrap-multiselect.css" rel="stylesheet" />--%>
+    <script src="js/bootstrap-multiselect.js"></script>
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="row rows card sticky-top">
+            <%--<div class="list-group list-group-mine">
+            <div class="row">
+                <div class="col-6 list-group-mine" >
+                  <a class="list-group-item"><h2 class="text-secondary">PLM - ORAWIN</h2></a>
+                    </div>
+                 <div class="col-6 text-white" >
+                  <a class="list-group-item"><h2 class="text-secondary">Signout</h2></a>
+                    </div>
+                </div>
+            </div>--%>
+   <div class="container-fluid">         
+  <div class="row">
+    <div class="col-4 border-0">
+      <h1 class="text-secondary"><span class="text-primary">Janatics </span><span class="h4" style="color:orange">TMR Approval</span></h1>
+    </div>
+    
+    <%--<div class="col-8 border-0 text-secondary" style="text-align:right;vertical-align:middle">
+  <ul class="list-group list-group-horizontal border-0">
+       <li class="list-group-item align-content-end border-0">
+           
+           </li>
+      </ul>
+    </div>--%>
+  </div>
+       <%--<div class="row">
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="serv-section-2" style="background-color:#e5e5e5">
+                    <div class="serv-section-desc">
+                        <h5>Home</h5> </div>
+                    <div class="section-heading-line-left"></div>
+                </div>
+            </div>
+           <div class="col-md-3 col-sm-12 col-12">
+                <div class="serv-section-2" style="background-color:#e5e5e5">
+                    <div class="serv-section-desc">
+                        <h5>Attribute Addition/Validation</h5></div>
+                    <div class="section-heading-line-left"></div>
+                </div>
+            </div>
+                 <div class="col-md-3 col-sm-12 col-12">
+                <div class="serv-section-2" style="background-color:#e5e5e5">
+                    <div class="serv-section-desc">
+                        <h5>Signout</h5></div>
+                    <div class="section-heading-line-left"></div>
+                </div>
+            </div>
+
+</div>--%>    
+            </div>
+                </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
